@@ -1,0 +1,8 @@
+company     Horiba JOBIN YVON
+model       HR800
+laser       532nm  
+output      100mW  
+grating     600    
+objective   X100
+time        30s 
+wavenumber  100-3500

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xrdMeasurements xmlns="http://www.xrdml.com/XRDMeasurement/1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xrdml.com/XRDMeasurement/1.2 http://www.xrdml.com/XRDMeasurement/1.2/XRDMeasurement.xsd" status="Completed">
+	<comment>
+		<entry>Configuration=Stage Flat Sample, Owner=User-1, Creation date=8/3/2005 8:57:10 AM</entry>
+		<entry>Goniometer=PW3050/60 (Theta/Theta); Minimum step size 2Theta:0.001; Minimum step size Omega:0.001</entry>
+		<entry>Sample stage=PW3071/xx Bracket</entry>
+		<entry>Diffractometer system=XPERT-PRO</entry>
+		<entry>Measurement program=Film-10-80, Owner=User-1, Creation date=7/1/2019 12:12:31 PM</entry>
+	</comment>
+	<sample type="To be analyzed">
+		<id></id>
+		<name></name>
+		<preparedBy></preparedBy>
+	</sample>
+	<xrdMeasurement measurementType="Scan" status="Completed">
+		<comment>
+			<entry/>
+		</comment>
+		<usedWavelength intended="K-Alpha 1">
+			<kAlpha1 unit="Angstrom">1.5405980</kAlpha1>
+			<kAlpha2 unit="Angstrom">1.5444260</kAlpha2>
+			<kBeta unit="Angstrom">1.3922500</kBeta>
+			<ratioKAlpha2KAlpha1>0.5000</ratioKAlpha2KAlpha1>
+		</usedWavelength>
+		<incidentBeamPath>
+			<radius unit="mm">240.00</radius>
+			<xRayTube id="1010048" name="PW3373/10 Cu LFF DK418250">
+				<tension unit="kV">40</tension>
+				<current unit="mA">40</current>
+				<anodeMaterial>Cu</anodeMaterial>
+				<focus type="Line">
+					<length unit="mm">12.0</length>
+					<width unit="mm">0.4</width>
+					<takeOffAngle unit="deg">4.4</takeOffAngle>
+				</focus>
+			</xRayTube>
+			<xRayMirror id="27020001" name="Inc. Beam Cu W/Si (parabolic MPD)" hybrid="false">
+				<crystal type="Graded" shape="Parabolic">W/Si</crystal>
+				<acceptanceAngle unit="deg">0.8</acceptanceAngle>
+				<length unit="mm">55.3</length>
+			</xRayMirror>
+			<divergenceSlit id="22010004" name="Slit Fixed 1/2°" xsi:type="fixedDivergenceSlitType">
+				<height unit="mm">0.76</height>
+			</divergenceSlit>
+		</incidentBeamPath>
+		<diffractedBeamPath>
+			<radius unit="mm">240.00</radius>
+			<parallelPlateCollimator id="25010001" name="Parallel plate collimator 0.27°">
+				<opening unit="deg">0.27</opening>
+			</parallelPlateCollimator>
+			<detector id="7010011" name="PW3011/20 (Miniprop. large window)" xsi:type="pointDetectorType">
+				<phd>
+					<lowerLevel unit="%">35.0</lowerLevel>
+					<upperLevel unit="%">80.0</upperLevel>
+				</phd>
+			</detector>
+		</diffractedBeamPath>
+		<scan appendNumber="0" mode="Continuous" scanAxis="2Theta" status="Completed">
+			<header>
+				<startTimeStamp>2020-01-10T11:23:45-08:00</startTimeStamp>
+				<endTimeStamp>2020-01-10T11:30:20-08:00</endTimeStamp>
+				<author>
+					<name>Administrator</name>
+				</author>
+				<source>
+					<applicationSoftware version="2.1a">X'Pert Data Collector</applicationSoftware>
+					<instrumentControlSoftware version="2.1E">XPERT-PRO</instrumentControlSoftware>
+					<instrumentID>0000000026005197</instrumentID>
+				</source>
+			</header>
+			<dataPoints>
+				<positions axis="2Theta" unit="deg">
+					<startPosition>10.0555</startPosition>
+					<endPosition>69.9615</endPosition>
+				</positions>
+				<positions axis="Omega" unit="deg">
+					<commonPosition>0.800</commonPosition>
+				</positions>
+				<commonCountingTime unit="seconds">0.50</commonCountingTime>
+				<intensities unit="counts">2928 2913 2839 2844 2836 2662 2734 2750 2774 2653 2585 2596 2666 2573 2543 2526 2497 2462 2473 2415 2307 2429 2320 2348 2318 2226 2276 2183 2277 2246 2198 2177 2130 2135 2112 2045 2067 2067 2117 2075 1989 1992 1959 1961 1951 1839 1925 1949 1856 1802 1892 1902 1749 1780 1713 1785 1723 1781 1776 1731 1716 1696 1669 1708 1632 1660 1656 1591 1671 1564 1588 1611 1612 1550 1473 1466 1550 1435 1382 1392 1410 1414 1481 1405 1344 1397 1341 1448 1324 1336 1308 1343 1245 1322 1258 1336 1305 1215 1243 1244 1252 1193 1220 1169 1200 1162 1188 1205 1134 1101 1075 1127 1158 1050 1090 1125 1096 1093 1108 1039 1069 1052 1041 1029 1001 976 1059 981 1026 1006 999 944 946 898 982 976 935 942 900 838 918 856 910 925 850 902 876 862 864 894 846 833 794 845 833 824 791 813 747 742 804 755 768 806 769 786 764 797 736 718 714 739 744 718 714 719 673 703 692 653 671 704 697 662 637 640 719 656 657 633 656 600 661 585 637 647 635 603 594 569 576 588 575 586 587 552 585 551 567 541 504 552 523 553 513 557 493 543 512 505 497 484 531 504 468 472 489 527 530 457 493 454 511 500 456 454 463 475 485 495 447 435 455 453 433 465 422 415 455 419 439 420 376 423 464 458 433 413 430 387 389 382 390 395 399 360 367 396 357 379 396 380 373 400 381 380 359 333 343 350 345 359 363 340 370 345 328 379 352 335 304 360 337 319 335 350 329 315 306 293 325 329 350 321 271 313 287 343 289 298 340 295 305 280 255 328 281 247 260 259 279 288 268 266 265 280 290 276 262 283 248 251 240 262 280 275 253 290 248 245 278 283 287 259 250 261 250 258 260 261 227 255 255 243 258 243 236 246 226 237 238 205 230 210 227 237 233 254 237 242 207 239 254 231 227 259 250 250 238 283 257 273 298 317 326 314 336 406 459 697 968 1539 2343 3429 4594 5321 5686 5333 4083 2829 1879 1179 815 588 427 399 338 321 253 247 258 224 213 223 209 186 215 186 183 202 189 184 184 199 188 189 169 182 178 171 170 185 164 166 149 146 184 156 165 186 161 162 146 151 144 174 150 150 169 159 173 169 174 145 163 162 147 155 154 129 143 152 135 154 155 149 140 123 143 154 138 137 135 156 132 121 151 129 126 132 126 132 138 129 141 126 117 128 103 121 114 120 126 103 105 124 121 116 121 132 107 110 104 116 97 120 102 117 97 101 119 116 112 126 103 112 112 103 100 116 108 122 92 101 105 92 109 109 96 92 92 108 103 99 95 98 91 87 114 77 98 89 90 82 87 95 96 97 82 82 104 100 83 89 78 86 95 118 93 93 92 88 75 83 85 92 87 98 77 108 95 97 83 102 83 87 100 92 84 98 73 83 88 108 83 87 63 78 95 91 77 81 78 87 67 93 79 83 89 91 88 70 68 75 78 83 83 80 80 80 84 80 87 72 88 80 77 80 99 89 63 81 106 125 137 160 223 309 489 716 910 1083 1141 960 818 618 425 271 228 151 126 100 99 87 86 89 102 88 91 85 75 68 79 97 76 86 74 73 81 61 78 73 72 72 76 87 78 66 56 79 76 60 72 58 76 77 80 76 76 78 81 53 68 65 59 79 60 73 63 62 73 67 79 69 73 59 67 76 76 62 75 58 68 63 73 53 73 70 65 93 67 63 68 77 72 77 64 80 73 71 79 62 75 52 75 71 58 57 67 63 69 67 63 68 76 72 80 59 70 61 68 67 58 70 48 69 68 57 76 59 68 57 56 62 63 52 56 67 83 62 50 61 63 55 65 53 75 51 65 61 63 67 69 56 55 52 49 59 74</intensities>
+			</dataPoints>
+		</scan>
+	</xrdMeasurement>
+</xrdMeasurements>
